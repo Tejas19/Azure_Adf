@@ -1,0 +1,9 @@
+{
+	"name": "azrtsp2022-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d8ba5da6-4341-46e9-b0f9-e88aa8435fcf",
+		"tenantId": "19b5dd1c-f275-464a-a3ba-c97c474e1e0b"
+	}
+}
