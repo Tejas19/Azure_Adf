@@ -10,7 +10,6 @@
 		"typeProperties": {
 			"location": {
 				"type": "FileServerLocation",
-				"fileName": "File*",
 				"folderPath": "Assignment 1/Data"
 			},
 			"columnDelimiter": ",",
