@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "azrtsp2022-adf"
+		},
+		"LinkedService_MyComputer_password": {
+			"value": ""
+		},
+		"azrtsp2022_adlsgen2_accountKey": {
+			"value": ""
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://mycomputerkeyvault.vault.azure.net/secrets/azrtsp2022/d8f7ef05bef3466c88ba0b13208d9b61"
+		},
+		"LinkedService_MyComputer_properties_typeProperties_host": {
+			"value": "\\\\LAPTOP-0TQ6763H\\Azure_POC\\"
+		},
+		"LinkedService_MyComputer_properties_typeProperties_userId": {
+			"value": "fadnavisakanksha@gmail.com"
+		},
+		"azrtsp2022_adlsgen2_properties_typeProperties_url": {
+			"value": "https://azrtsp2022adlsstorage.dfs.core.windows.net"
+		}
+	}
+}
