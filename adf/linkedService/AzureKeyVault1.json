@@ -1,0 +1,10 @@
+{
+	"name": "AzureKeyVault1",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://mycomputerkeyvault.vault.azure.net/secrets/azrtsp2022/d8f7ef05bef3466c88ba0b13208d9b61"
+		}
+	}
+}
