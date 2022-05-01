@@ -90,7 +90,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
-						"fileName": "SampleData.csv"
+						"fileSystem": "ukrainsocialmediadata"
 					},
 					"compressionCodec": "snappy"
 				},
