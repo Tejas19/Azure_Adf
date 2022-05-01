@@ -1,0 +1,19 @@
+{
+	"name": "Copy_Data_Parquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "azrtsp2022_adlsgen2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "SampleData.csv"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}

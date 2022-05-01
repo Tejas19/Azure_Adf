@@ -1,0 +1,23 @@
+{
+	"name": "File1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LinkedService_MyComputer",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "File1.txt",
+				"folderPath": "Assignment 1/Data"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
