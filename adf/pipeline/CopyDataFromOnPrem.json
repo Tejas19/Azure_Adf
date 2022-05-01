@@ -111,11 +111,11 @@
 									"storeSettings": {
 										"type": "FileServerReadSettings",
 										"recursive": true,
-										"enablePartitionDiscovery": false,
-										"fileFilter": {
-											"value": "@{item().name}",
+										"wildcardFileName": {
+											"value": "@item().name",
 											"type": "Expression"
-										}
+										},
+										"enablePartitionDiscovery": false
 									},
 									"formatSettings": {
 										"type": "DelimitedTextReadSettings"
@@ -143,7 +143,7 @@
 							},
 							"inputs": [
 								{
-									"referenceName": "DS_SampleFile",
+									"referenceName": "File1",
 									"type": "DatasetReference"
 								}
 							],
