@@ -1,0 +1,17 @@
+{
+	"name": "LinkedService_MyComputer",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "\\\\LAPTOP-0TQ6763H\\Azure_POC\\",
+			"userId": "fadnavisakanksha@gmail.com",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5MTdmNDJmYi0xODUxLTRhNjctYWYyMC03Y2QzZmJiMzBmOWMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "selfHosted-integrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
